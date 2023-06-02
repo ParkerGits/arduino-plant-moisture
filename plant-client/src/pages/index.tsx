@@ -36,11 +36,15 @@ export default function Home() {
 			<MoistureChart toggles={toggles} data={data} />
 			<div className="flex flex-col items-center justify-center">
 				<label>
-					Start
+					<span className="text-xs font-semibold inline-block py-1 px-2 rounded bg-green-200 mr-2">
+						Start
+					</span>
 					<input type="datetime-local" />
 				</label>
 				<label>
-					End
+					<span className="text-xs font-semibold inline-block py-1 px-3 rounded bg-red-200 mr-2">
+						End
+					</span>
 					<input type="datetime-local" />
 				</label>
 			</div>
