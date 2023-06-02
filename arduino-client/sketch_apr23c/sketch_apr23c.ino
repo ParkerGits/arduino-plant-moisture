@@ -2,7 +2,7 @@
 #include <WiFiNINA.h>
 #include "arduino_secrets.h"
 
-#define ENDPOINT_DOMAIN "plant-moisture-server-production.up.railway.app"   // endpoint for POST requests
+#define ENDPOINT_DOMAIN "arduino-plant-moisture-production.up.railway.app"   // endpoint for POST requests
 #define POSTING_INTERVAL 5L * 1000L    // delay between updates, in milliseconds
 #define POST_FORM_PREFIX "moisture_"       // prefix for POST request form entries
 
